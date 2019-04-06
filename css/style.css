@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 8s ease 1s 1 normal;
+    -webkit-animation: fadeIn 9s ease 0s 1 normal;
+    background-color: black;
+  }
+
+ .header{
+   background-color:white;
+   padding-top:30px;
+ }
+
+ h1{
+  letter-spacing: 0.3em;
+  color:black;
+ }
+
+ .header-text{
+   margin-top:20px;
+  letter-spacing: 0.3em;
+ }
+
+ 
+
+ #userMovie{
+  margin-top:50px;
+ }
+
+  .gifDiv{
+    margin:20px;
+    padding:20px;
+  }
+
+  #body2{
+    background-color:black;
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 3s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+  
+
+　.bg-video-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: url("/Users/kihamoore/Desktop/Bootcamp/Gify/css/images/background.jpeg") no-repeat center center/cover;
+  }
+  video {
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+  }
+
+  #music{
+   margin-left:500px;
+  }
+  
+  a {
+    letter-spacing: 0.3em;
+    text-decoration:none;
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 30;
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+    padding-top:120px;
+  }
+ 
+  a:hover{
+      
+    color:white;
+    text-shadow: 0 0 10px #fff,0 0 15px #fff;
+	  font-size: 16px;
+    padding-top:120px;
+  }
+ 
+  .gifDiv{
+   padding:30px;
+  }
+
+  .ghibliMovie{
+    margin:2px;
+    transition: all 1s;
+    padding-bottom:5px;
+
+  }
+
+  .ghibliMovie:hover{
+    color:black;
+    background-color:rgb(188, 215, 241);
+  }
+
+  
