@@ -101,16 +101,16 @@ $(document).ready(function () {
               
 //                $(document).on("click", ".gifGhibli", function() {
                       
-//                      var status = $(this).attr('data-state');
+//                       var status = $(this).attr('data-state');
 
-//                     if (status == 'still') {
-//                         $(this).attr('src', $(this).data('animate'));
+//                      if (status == 'still') {
+//                          $(this).attr('src', $(this).data('animate'));
 //                         $(this).attr('data-state', 'animate');
-//                       } else {
-//                         $(this).attr('src', $(this).data('still'));
-//                         $(this).attr('data-state', 'still');
-//                　　　  }
-// 	              });
+//                        } else {
+//                          $(this).attr('src', $(this).data('still'));
+//                          $(this).attr('data-state', 'still');
+//                 　　　  }
+//  	              });
 
-// 					          buttonsMaker();
-//             });
+ 					          buttonsMaker();
+             });
